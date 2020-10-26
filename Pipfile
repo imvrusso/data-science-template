@@ -4,8 +4,24 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+jupyter = "*"
+pytest = "*"
+matplotlib = "*"
+seaborn = "*"
+plotly = "*"
 
 [packages]
+numpy = "*"
+scipy = "*"
+pandas = "*"
+scikit-learn = "*"
+statsmodels = "*"
+xgboost = "*"
+lightgbm = "*"
+catboost = "*"
+tensorflow = "*"
+keras = "*"
+featuretools = "*"
 
 [requires]
 python_version = "3.8"
