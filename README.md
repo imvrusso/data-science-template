@@ -48,9 +48,12 @@ The directory structure of the new project looks like this:
 │   │   ├── predict_model.py
 │   │   └── train_model.py
 │   │
-│   └── visualization  <- Scripts to create exploratory and results oriented visualizations.
-│       ├── __init__.py
-│       └── visualize.py
+│   ├── visualization  <- Scripts to create exploratory and results oriented visualizations.
+│   │   ├── __init__.py
+│   │   └── visualize.py
+│   │
+│   └── utils          <- Utility functions for the project.
+│       └── __init__.py
 │
 └── tests              <- Scripts to test the source code.
 ```
