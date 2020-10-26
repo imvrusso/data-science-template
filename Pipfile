@@ -23,6 +23,7 @@ tensorflow = "*"
 keras = "*"
 featuretools = "*"
 python-dotenv = "*"
+scrapy = "*"
 
 [requires]
 python_version = "3.8"
