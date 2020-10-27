@@ -8,7 +8,9 @@ The directory structure of the new project looks like this:
 
 ```
 ├── Makefile           <- Makefile with commands like `make data` or `make train`.
-├── README.md          <- The top-level README for developers using this project.
+├── README.md          <- The top-level README for the project.
+├── setup.py           <- Install and distribute modules.
+│
 ├── data
 │   ├── external       <- Data from third party sources.
 │   ├── interim        <- Intermediate data that has been transformed.

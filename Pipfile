@@ -24,6 +24,7 @@ keras = "*"
 featuretools = "*"
 python-dotenv = "*"
 scrapy = "*"
+src = {editable = true, path = "."}
 
 [requires]
 python_version = "3.8"
