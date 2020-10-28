@@ -9,8 +9,10 @@ pytest = "*"
 matplotlib = "*"
 seaborn = "*"
 plotly = "*"
+ipykernel = "*"
 
 [packages]
+src = {editable = true, path = "."}
 numpy = "*"
 scipy = "*"
 pandas = "*"
@@ -24,7 +26,6 @@ keras = "*"
 featuretools = "*"
 python-dotenv = "*"
 scrapy = "*"
-src = {editable = true, path = "."}
 
 [requires]
 python_version = "3.8"
