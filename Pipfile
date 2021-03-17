@@ -4,28 +4,28 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-jupyter = "*"
 pytest = "*"
+jupyter = "*"
+ipykernel = "*"
 matplotlib = "*"
 seaborn = "*"
 plotly = "*"
-ipykernel = "*"
 
 [packages]
 src = {editable = true, path = "."}
+python-dotenv = "*"
+scrapy = "*"
 numpy = "*"
-scipy = "*"
 pandas = "*"
-scikit-learn = "*"
+scipy = "*"
 statsmodels = "*"
+featuretools = "*"
+scikit-learn = "*"
 xgboost = "*"
 lightgbm = "*"
 catboost = "*"
 tensorflow = "*"
 keras = "*"
-featuretools = "*"
-python-dotenv = "*"
-scrapy = "*"
 
 [requires]
 python_version = "3.8"
