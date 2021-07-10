@@ -30,6 +30,8 @@ The directory structure of the new project looks like this:
 │
 ├── .env               <- Environment variables.
 │
+├── main.py            <- Entry point of the project.
+│
 ├── src                <- Source code for use in this project.
 │   ├── __init__.py    <- Makes src a Python module.
 │   │
@@ -58,7 +60,6 @@ The directory structure of the new project looks like this:
 ```
 
 ### Implementation
-------------
 
 #### Dataset
 
@@ -69,7 +70,6 @@ The directory structure of the new project looks like this:
 #### Modelling
 
 ### How to install it
-------------
 
 [python 3.8](https://www.python.org/downloads/release/python-380/) and
 [pipenv](https://pipenv-fork.readthedocs.io/en/latest/) are required.
@@ -81,7 +81,6 @@ $ pipenv install --dev
 ```
 
 ### How to run it
-------------
 
 Move to the project root directory and type:
 
@@ -90,7 +89,6 @@ $ python main.py
 ```
 
 ### How to test it
-------------
 
 Move to the project root directory and type:
 

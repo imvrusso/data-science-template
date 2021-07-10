@@ -13,7 +13,7 @@ def main():
     """ Runs the following script to ...
     """
     logger = logging.getLogger(__name__)
-    logger.info('running movie classifier')
+    logger.info('running main')
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--myarg', type=str, required=True, help='myarg help')
