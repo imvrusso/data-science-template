@@ -56,3 +56,44 @@ The directory structure of the new project looks like this:
 │
 └── tests              <- Scripts to test the source code.
 ```
+
+### Implementation
+------------
+
+#### Dataset
+
+#### Libraries
+
+#### Preprocessing
+
+#### Modelling
+
+### How to install it
+------------
+
+[python 3.8](https://www.python.org/downloads/release/python-380/) and
+[pipenv](https://pipenv-fork.readthedocs.io/en/latest/) are required.
+
+Move to the project root directory and type:
+
+```
+$ pipenv install --dev
+```
+
+### How to run it
+------------
+
+Move to the project root directory and type:
+
+```
+$ python main.py
+```
+
+### How to test it
+------------
+
+Move to the project root directory and type:
+
+```
+$ python -m pytest tests
+```
