@@ -4,7 +4,6 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pytest = "*"
 jupyter = "*"
 ipykernel = "*"
 matplotlib = "*"
@@ -14,7 +13,9 @@ plotly = "*"
 [packages]
 src = {editable = true, path = "."}
 python-dotenv = "*"
+pytest = "*"
 scrapy = "*"
+nltk = "*"
 numpy = "*"
 pandas = "*"
 scipy = "*"
@@ -24,7 +25,6 @@ scikit-learn = "*"
 xgboost = "*"
 lightgbm = "*"
 catboost = "*"
-tensorflow = "*"
 keras = "*"
 
 [requires]
